@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './Header'
 
 function App() {
   return (
     <div className="App">
-    <h1>Hello again, let's build the amazon-clone together 🚀</h1>
+      <Header/>
+      {/*Header */}
+    {/*Home */}
     </div>
   );
 }
