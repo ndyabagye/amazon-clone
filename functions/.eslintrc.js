@@ -9,6 +9,10 @@ module.exports = {
     "google",
   ],
   rules: {
-    quotes: ["error", "double"],
+    "quotes": ["error", "double"],
+    "max-len": 0,
+  },
+  parserOptions: {
+    "ecmaVersion": 2017,
   },
 };
